@@ -16,9 +16,20 @@ function agua_necesaria(condicion, km) {
 
     if (condicion == 'buena') {
         agua_por_km = 0.5
+        litros_totales = agua_por_km * km
+        return litros_totales
     }
-
-    return litros_totales
+    else if (condicion == 'regular') {
+        agua_por_km = 0.61
+        litros_totales = agua_por_km * km
+        return litros_totales
+    } 
+    else if (condicion == 'mala') {
+        agua_por_km = 0.71
+        litros_totales = agua_por_km * km
+        return litros_totales
+    }
+    
 
 }
 

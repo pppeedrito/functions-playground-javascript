@@ -9,7 +9,9 @@
          console.log(texto)
      }
  }
-
+ let n = 10
+ let texto= "hola"
+ esribeVeces(n,texto)
  /**
   * Invoca esta función de manera adecuada para que escribe la palabra 'Hola!' 10 veces
   */
